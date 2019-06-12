@@ -32,10 +32,13 @@ class Navbar extends Component {
         {/* <div className="container"> */}
           <ElementsWrapper items={navbarItems}>
             <div name="item-1" className="item">
-             <h1 className="h1Bla">Hello  Ita just a text</h1>
+            <div className="container">
+             <h1 className="Title">Nick Zamiatin</h1>
+             <h1>Software Developer</h1>
+             <h2>Software Developer</h2>
+             </div>
             </div>
-            <div name="item-2" className="item">
-             
+            <div name="item-2" className="item" >
               <Carousel />
             </div>
             <div name="item-3" className="item">

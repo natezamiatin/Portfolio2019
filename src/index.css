@@ -5,8 +5,13 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: gray;
+  /* background-color: gray; */
+  background-image: url("https://images.unsplash.com/photo-1515120138944-8b31a82f995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
   border: none !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
 code {
@@ -14,25 +19,54 @@ code {
     monospace;
 }
 
+.active_link {
+  background-color: #825c29 !important;
+  color: black !important;
+}
 
 .Navbar{
-  color: whitesmoke ;
+  color: #744e24 ;
   font-weight: bold;
+}
+
+a:hover { 
+  background-color:#815c29 !important;
 }
 
 .item{
   border: none  !important;
 }
 
-.item-2{
+.Carousel{
   background-color: #555;
+  
+}
+
+.Title{
+  text-align: center;
+  color: black;
+  width: 10%;
+  height: 30%;
+}
+
+element.style {
+  justify-content: left !important;
 
 }
 
-.h1Bla{
-  text-align: center;
-  font: bold;
+
+.footer {
+  position: fixed;
+  left: 0;
+  padding: 10px;
+  bottom: 00;
+  width: 100%;
+  background-color: #815c29;
   color: black;
-width: 20%;
-height: 30%;
+  text-align: center;
+}
+
+h2{
+  color: #854801;
+  text-shadow: 2px 2px  #a4641b;
 }
